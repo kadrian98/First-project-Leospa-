@@ -529,14 +529,35 @@ article p
 .first:hover button
 {
 	background-color: #ff817e;
+	cursor: pointer;
 }
 
 .second:hover button
 {
 	background-color: #ff817e;
+	cursor: pointer;
 }
 
 .third:hover button
 {
 	background-color: #ff817e;
+	cursor: pointer;
+}
+
+.first:hover h4
+{
+	
+	cursor: pointer;
+}
+
+.second:hover h4
+{
+	
+	cursor: pointer;
+}
+
+.third:hover h4
+{
+	
+	cursor: pointer;
 }
