@@ -623,29 +623,65 @@ article p
 	justify-content: center;
 	flex-direction: row;
 	margin-top: 50px;
+
 }
 
 .uno
 {
-	margin:15px;
-	width: 350px;
-	height: 496px;
-	padding-top: 0;
+	width: 330px;
+	margin: 15px;
 }
 
-.uno img
+
+.overlay5
 {
-	width: 350px;
-	height: 418px;
+	position: relative;
+	width: 330px;
+	height: 414px;
+
+}
+
+
+.overlay5 .name
+{
+	position: absolute; 
+	display: block;
+	width: 330px;
+	height: 65px;
+	background-color: #111;
+	left: 0;
+	bottom: 0;
+	opacity: 1;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.overlay5:hover .name
+{
+	padding-bottom: 40px;
+	transition: all 0.2s ease-in-out;
+}
+
+.overlay5 .namebelow
+{
+
+	opacity: 0;
+	position: absolute;
+	width: 330px;
+	height: 40px;
 	display: flex;
 	justify-content: center;
+	bottom: 0;
+	left: 0;
+	background-color: #111;
+	display: block;
+	text-align: center;
+
 }
 
-.sbox
+
+.overlay5:hover .namebelow
 {
-	width: 250px;
-	height: 100px;
-	margin-bottom: 0;
-	background-color: #303030;
-	text-align: center;
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
 }
