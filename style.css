@@ -630,6 +630,7 @@ article p
 {
 	width: 330px;
 	margin: 15px;
+
 }
 
 
@@ -637,29 +638,48 @@ article p
 {
 	position: relative;
 	width: 330px;
-	height: 414px;
+	display: flex;
+	justify-content: center;
 
 }
 
+.name h3
+{
+	color: #263a41;
+	font-size: 22px;
+	font-family: 'Rufina', serif;
+	text-transform: none;
+}
+
+.name p
+{
+	color: #888;
+	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0px;
+}
 
 .overlay5 .name
 {
 	position: absolute; 
 	display: block;
-	width: 330px;
-	height: 65px;
-	background-color: #111;
-	left: 0;
+	width: 277px;
+	height: 99px;
+	background-color: #fff;
 	bottom: 0;
 	opacity: 1;
 	text-align: center;
 	padding-top: 20px;
+	margin-bottom: 0;
+	line-height: 0.2;
+	
 }
 
 .overlay5:hover .name
 {
-	padding-bottom: 40px;
-	transition: all 0.2s ease-in-out;
+	padding-bottom: 34px;
+	transition: all 0.3s ease-in-out;
 }
 
 .overlay5 .namebelow
@@ -667,21 +687,90 @@ article p
 
 	opacity: 0;
 	position: absolute;
-	width: 330px;
+	width: 270px;
 	height: 40px;
 	display: flex;
 	justify-content: center;
 	bottom: 0;
-	left: 0;
-	background-color: #111;
+	background-color: #fff;
 	display: block;
 	text-align: center;
-
 }
-
 
 .overlay5:hover .namebelow
 {
 	opacity: 1;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.icon-facebook
+{
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #000;
+	font-size: 15px;
+	padding: 4px;
+
+}
+
+.icon-twitter
+{
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #000;
+	font-size: 15px;
+	padding: 4px;
+
+}
+
+.icon-gplus
+{
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #000;
+	font-size: 15px;
+	padding: 4px;
+
+}
+
+.icon-instagram
+{
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #000;
+	font-size: 15px;
+	padding: 4px;
+
+}
+
+.icon-facebook:hover
+{
+	background-color: #ff817e;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+.icon-twitter:hover
+{
+	background-color: #ff817e;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+.icon-gplus:hover
+{
+	background-color: #ff817e;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+
+.icon-instagram:hover
+{
+	background-color: #ff817e;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
 }

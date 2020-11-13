@@ -22,3 +22,6 @@
 [1103/163302.466:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
 [1106/125217.261:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
 [1108/134341.039:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[1111/202153.182:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\k_adr\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\121d69e8-89cc-42e9-b077-b1ec26f07be0: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[1111/221212.967:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[1112/151636.063:ERROR:directory_reader_win.cc(43)] FindFirstFile: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
