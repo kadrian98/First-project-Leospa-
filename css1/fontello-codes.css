@@ -1,7 +1,12 @@
+@charset "UTF-8";
 
+ 
+.icon-location:before { content: '\e07a'; } /* '' */
+.icon-mail:before { content: '\e09a'; } /* '' */
 .icon-play-outline:before { content: '\e800'; } /* '' */
 .icon-gplus:before { content: '\f05a'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-circle-empty:before { content: '\f10c'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-mobile:before { content: '📱'; } /* '\1f4f1' */
