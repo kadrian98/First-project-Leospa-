@@ -392,6 +392,7 @@ article p
 	border: 1px solid #e3e6ea;
 	margin: 12px;
 	text-align: center;
+	transition: all 0.2s ease-in-out;
 }
 
 .third
@@ -483,7 +484,7 @@ article p
 	-webkit-box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.62);
     -moz-box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.62);
     box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.62);
-    transition: all 0.2s ease-in-out;
+    
 }
 
 .third h4
