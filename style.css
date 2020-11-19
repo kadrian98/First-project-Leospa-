@@ -1,15 +1,22 @@
 body
 {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 	font-family: 'Open Sans', sans-serif;
+	margin:0;
+}
+
+figure { 
+	margin:0; 
 }
 
 .fotflowers
 {
-	padding-top: 100px;
+	position:absolute;
+	top:auto;
+	bottom:40px;
+	left:0;
 	width: 200px;
+	z-index: 6;
 }
 
 .fotflowers img
@@ -26,17 +33,13 @@ body
 	font-size: 12px;
 }
 
-.menu
-{
-	margin-left: 180px;
-	padding-top: 30px;
-}
 
 .container
 {
 	width: 1200px;
 	display: flex;
 	flex-direction: row;
+	margin:0 auto;
 }
 
 .menu ul
@@ -161,7 +164,9 @@ i
 
 .bigface
 {
-	padding-right: 0px;
+	position:absolute;
+	top:0;
+	right:0;
 }
 
 .bigface img
@@ -392,6 +397,7 @@ article p
 	border: 1px solid #e3e6ea;
 	margin: 12px;
 	text-align: center;
+	transition: all 0.2s ease-in-out;
 }
 
 .third
@@ -483,7 +489,7 @@ article p
 	-webkit-box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.62);
     -moz-box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.62);
     box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.62);
-    transition: all 0.2s ease-in-out;
+    
 }
 
 .third h4
@@ -1130,12 +1136,8 @@ article p
 
 input
 {
-	width: 450px;
 	padding: 13px;
-	margin-left: 150px;
-	margin-top: 20px;
 	border: 1px solid #e3e6ea;
-	margin-bottom: 33px;
 }
 
 .other input

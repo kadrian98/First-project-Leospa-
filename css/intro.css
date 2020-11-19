@@ -1,0 +1,40 @@
+
+
+.intro-section {
+	width:100%;
+	position:relative;
+	height:100vh;
+
+	display: flex;
+	align-items: center;
+}
+
+.intro-text {
+	text-align: left;
+}
+
+.reserve-now-button {
+	background-color:#ff817e;
+	border:none;
+	color:#fff;
+	padding:15px 30px;
+}
+
+.watch-story-button {
+	background-color:transparent;
+	border:none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.watch-story-button i {
+	display: inline-block;
+	margin-right:10px;
+}
+
+.call-to-action {
+	margin-top:30px;
+}
+
+.main-title {
+	padding:0;
+}
