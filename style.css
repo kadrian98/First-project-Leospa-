@@ -5,10 +5,15 @@ body
 	margin:0;
 }
 
+figure { 
+	margin:0; 
+}
+
 .fotflowers
 {
 	position:absolute;
-	top:160px;
+	top:auto;
+	bottom:40px;
 	left:0;
 	width: 200px;
 	z-index: 6;
